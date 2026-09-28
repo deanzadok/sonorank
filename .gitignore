@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Data, checkpoints, and outputs (not distributed with the code)
+data/
+outputs/
+logs/
+*.pth
+*.pt
+*.h5
+*.pkl
+*.npz
+
+# Clarius SDK binaries (obtain separately, see sonorank_realtime/README.md)
+sonorank_realtime/cast.dll
+sonorank_realtime/pyclariuscast.pyd
+sonorank_realtime/libcast.so
+sonorank_realtime/pyclariuscast.so
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
